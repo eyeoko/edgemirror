@@ -1,8 +1,12 @@
 name = "edgemirror"
 main = "src/index.js"
-compatibility_date = "2026-05-22"
+compatibility_date = "2026-07-18"
 workers_dev = true
 preview_urls = false
+
+routes = [
+  { pattern = "e.eyeoko.top", custom_domain = true }
+]
 
 [observability]
 enabled = true
